@@ -1,0 +1,11 @@
+rank,result_file,clip_score,prompt,model,pool_file,culture,original_filename
+1,hindi/01.jpg,0.285649,गुड़िया की तस्वीर,CLIP ViT-B/32,1dd0be23.jpg,Indian,indian_003.jpg
+2,hindi/02.jpg,0.273894,गुड़िया की तस्वीर,CLIP ViT-B/32,41a4655d.jpg,European,european_doll_013.jpg
+3,hindi/03.jpg,0.273471,गुड़िया की तस्वीर,CLIP ViT-B/32,de4288d5.jpg,Indian,indian_015.jpg
+4,hindi/04.jpg,0.265717,गुड़िया की तस्वीर,CLIP ViT-B/32,15d4caa7.jpg,Indian,indian_009.jpg
+5,hindi/05.jpg,0.261209,गुड़िया की तस्वीर,CLIP ViT-B/32,e049c3e9.jpg,Indian,indian_004.jpg
+6,hindi/06.jpg,0.258688,गुड़िया की तस्वीर,CLIP ViT-B/32,acf80236.jpg,Indian,indian_010.jpg
+7,hindi/07.jpg,0.255023,गुड़िया की तस्वीर,CLIP ViT-B/32,a26fe6ec.jpg,Indian,indian_002.jpg
+8,hindi/08.jpg,0.253655,गुड़िया की तस्वीर,CLIP ViT-B/32,d8fafcae.jpg,Indian,indian_001.jpg
+9,hindi/09.jpg,0.250294,गुड़िया की तस्वीर,CLIP ViT-B/32,d0214865.jpg,Indian,indian_006.jpg
+10,hindi/10.jpg,0.241399,गुड़िया की तस्वीर,CLIP ViT-B/32,72af5676.jpg,Japanese,japanese_016.jpg

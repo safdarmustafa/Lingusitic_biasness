@@ -1,0 +1,11 @@
+rank,result_file,clip_score,prompt,model,pool_file,culture,original_filename
+1,hindi/01.jpg,0.256313,गुड़िया की तस्वीर,OpenCLIP ViT-B/32 LAION-2B,acf80236.jpg,Indian,indian_010.jpg
+2,hindi/02.jpg,0.253362,गुड़िया की तस्वीर,OpenCLIP ViT-B/32 LAION-2B,d0214865.jpg,Indian,indian_006.jpg
+3,hindi/03.jpg,0.251924,गुड़िया की तस्वीर,OpenCLIP ViT-B/32 LAION-2B,d8fafcae.jpg,Indian,indian_001.jpg
+4,hindi/04.jpg,0.251208,गुड़िया की तस्वीर,OpenCLIP ViT-B/32 LAION-2B,1dd0be23.jpg,Indian,indian_003.jpg
+5,hindi/05.jpg,0.229546,गुड़िया की तस्वीर,OpenCLIP ViT-B/32 LAION-2B,f34c1b45.jpg,Indian,indian_008.jpg
+6,hindi/06.jpg,0.227575,गुड़िया की तस्वीर,OpenCLIP ViT-B/32 LAION-2B,15d4caa7.jpg,Indian,indian_009.jpg
+7,hindi/07.jpg,0.226677,गुड़िया की तस्वीर,OpenCLIP ViT-B/32 LAION-2B,de4288d5.jpg,Indian,indian_015.jpg
+8,hindi/08.jpg,0.219445,गुड़िया की तस्वीर,OpenCLIP ViT-B/32 LAION-2B,2fe142af.jpg,Japanese,japanese_017.jpg
+9,hindi/09.jpg,0.218739,गुड़िया की तस्वीर,OpenCLIP ViT-B/32 LAION-2B,a26fe6ec.jpg,Indian,indian_002.jpg
+10,hindi/10.jpg,0.217878,गुड़िया की तस्वीर,OpenCLIP ViT-B/32 LAION-2B,f7fd2361.jpg,Japanese,japanese_029.jpg

@@ -1,0 +1,11 @@
+rank,result_file,clip_score,prompt,model,pool_file,culture,original_filename
+1,english/01.jpg,0.313499,image of a doll,OpenCLIP ViT-B/32 LAION-2B,e3ef8da2.jpg,African,african_024.jpg
+2,english/02.jpg,0.308825,image of a doll,OpenCLIP ViT-B/32 LAION-2B,1999b7be.jpg,African,african_016.jpg
+3,english/03.jpg,0.308469,image of a doll,OpenCLIP ViT-B/32 LAION-2B,c4612bb0.jpg,African,african_026.jpg
+4,english/04.jpg,0.304422,image of a doll,OpenCLIP ViT-B/32 LAION-2B,833b9324.jpg,European,european_doll_009.jpg
+5,english/05.jpg,0.297575,image of a doll,OpenCLIP ViT-B/32 LAION-2B,4998c8ef.jpg,European,european_doll_027.jpg
+6,english/06.jpg,0.293671,image of a doll,OpenCLIP ViT-B/32 LAION-2B,2806d7a3.jpg,Japanese,japanese_013.jpg
+7,english/07.jpg,0.292039,image of a doll,OpenCLIP ViT-B/32 LAION-2B,93b21274.jpg,African,african_023.jpg
+8,english/08.jpg,0.289582,image of a doll,OpenCLIP ViT-B/32 LAION-2B,2f37bca2.jpg,European,european_doll_024.jpg
+9,english/09.jpg,0.283839,image of a doll,OpenCLIP ViT-B/32 LAION-2B,fe7eaab3.jpg,Japanese,japanese_023.jpg
+10,english/10.jpg,0.274021,image of a doll,OpenCLIP ViT-B/32 LAION-2B,d7f34f61.jpg,African,african_022.jpg

@@ -1,0 +1,11 @@
+rank,result_file,clip_score,prompt,model,pool_file,culture,original_filename
+1,english/01.jpg,0.240277,image of a doll,OpenCLIP XLM-R ViT-B/32,e3ef8da2.jpg,African,african_024.jpg
+2,english/02.jpg,0.233555,image of a doll,OpenCLIP XLM-R ViT-B/32,2f37bca2.jpg,European,european_doll_024.jpg
+3,english/03.jpg,0.231679,image of a doll,OpenCLIP XLM-R ViT-B/32,4998c8ef.jpg,European,european_doll_027.jpg
+4,english/04.jpg,0.229825,image of a doll,OpenCLIP XLM-R ViT-B/32,d7f34f61.jpg,African,african_022.jpg
+5,english/05.jpg,0.228704,image of a doll,OpenCLIP XLM-R ViT-B/32,c4612bb0.jpg,African,african_026.jpg
+6,english/06.jpg,0.223005,image of a doll,OpenCLIP XLM-R ViT-B/32,4e7b17ce.jpg,Japanese,japanese_002.jpg
+7,english/07.jpg,0.221340,image of a doll,OpenCLIP XLM-R ViT-B/32,0764bd88.jpg,European,european_doll_025.jpg
+8,english/08.jpg,0.220684,image of a doll,OpenCLIP XLM-R ViT-B/32,d7ba8e50.jpg,African,african_015.jpg
+9,english/09.jpg,0.218878,image of a doll,OpenCLIP XLM-R ViT-B/32,5bbcb266.jpg,African,african_030.jpg
+10,english/10.jpg,0.216579,image of a doll,OpenCLIP XLM-R ViT-B/32,2806d7a3.jpg,Japanese,japanese_013.jpg

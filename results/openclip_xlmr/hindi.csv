@@ -1,0 +1,11 @@
+rank,result_file,clip_score,prompt,model,pool_file,culture,original_filename
+1,hindi/01.jpg,0.208366,गुड़िया की तस्वीर,OpenCLIP XLM-R ViT-B/32,e3ef8da2.jpg,African,african_024.jpg
+2,hindi/02.jpg,0.198035,गुड़िया की तस्वीर,OpenCLIP XLM-R ViT-B/32,4998c8ef.jpg,European,european_doll_027.jpg
+3,hindi/03.jpg,0.197955,गुड़िया की तस्वीर,OpenCLIP XLM-R ViT-B/32,e049c3e9.jpg,Indian,indian_004.jpg
+4,hindi/04.jpg,0.197058,गुड़िया की तस्वीर,OpenCLIP XLM-R ViT-B/32,39eea7c6.jpg,Japanese,japanese_021.jpg
+5,hindi/05.jpg,0.196085,गुड़िया की तस्वीर,OpenCLIP XLM-R ViT-B/32,1dd0be23.jpg,Indian,indian_003.jpg
+6,hindi/06.jpg,0.195873,गुड़िया की तस्वीर,OpenCLIP XLM-R ViT-B/32,a26fe6ec.jpg,Indian,indian_002.jpg
+7,hindi/07.jpg,0.190480,गुड़िया की तस्वीर,OpenCLIP XLM-R ViT-B/32,2f37bca2.jpg,European,european_doll_024.jpg
+8,hindi/08.jpg,0.189117,गुड़िया की तस्वीर,OpenCLIP XLM-R ViT-B/32,de4288d5.jpg,Indian,indian_015.jpg
+9,hindi/09.jpg,0.187248,गुड़िया की तस्वीर,OpenCLIP XLM-R ViT-B/32,e9b2a329.jpg,European,european_doll_008.jpg
+10,hindi/10.jpg,0.186602,गुड़िया की तस्वीर,OpenCLIP XLM-R ViT-B/32,c4612bb0.jpg,African,african_026.jpg

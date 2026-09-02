@@ -1,0 +1,11 @@
+torch
+torchvision
+openai-clip
+open_clip_torch
+transformers
+matplotlib
+pandas
+tqdm
+ftfy
+regex
+Pillow

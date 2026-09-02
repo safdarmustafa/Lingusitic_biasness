@@ -1,0 +1,11 @@
+rank,result_file,clip_score,prompt,model,pool_file,culture,original_filename
+1,english/01.jpg,0.341215,image of a doll,CLIP ViT-B/32,e3ef8da2.jpg,African,african_024.jpg
+2,english/02.jpg,0.333173,image of a doll,CLIP ViT-B/32,833b9324.jpg,European,european_doll_009.jpg
+3,english/03.jpg,0.324397,image of a doll,CLIP ViT-B/32,2f37bca2.jpg,European,european_doll_024.jpg
+4,english/04.jpg,0.318354,image of a doll,CLIP ViT-B/32,c4612bb0.jpg,African,african_026.jpg
+5,english/05.jpg,0.312119,image of a doll,CLIP ViT-B/32,fe7eaab3.jpg,Japanese,japanese_023.jpg
+6,english/06.jpg,0.307892,image of a doll,CLIP ViT-B/32,7f310453.jpg,African,african_028.jpg
+7,english/07.jpg,0.307711,image of a doll,CLIP ViT-B/32,ae40a235.jpg,Japanese,japanese_001.jpg
+8,english/08.jpg,0.307492,image of a doll,CLIP ViT-B/32,0764bd88.jpg,European,european_doll_025.jpg
+9,english/09.jpg,0.307347,image of a doll,CLIP ViT-B/32,39eea7c6.jpg,Japanese,japanese_021.jpg
+10,english/10.jpg,0.303769,image of a doll,CLIP ViT-B/32,5bbcb266.jpg,African,african_030.jpg
