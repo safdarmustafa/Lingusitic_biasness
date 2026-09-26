@@ -9,3 +9,5 @@ tqdm
 ftfy
 regex
 Pillow
+pyyaml
+sentencepiece

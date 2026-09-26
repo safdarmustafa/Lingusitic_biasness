@@ -1,0 +1,95 @@
+# config.yaml
+# ---------------------------------------------------------------------------
+# Shared experiment config for run_class1_eval.py.
+#
+# Each developer only needs to change `active_model` (or pass --model on the
+# command line) to switch which CLIP-family model runs. No code edits needed.
+# ---------------------------------------------------------------------------
+
+# Which entry under `models:` to run by default.
+# Override on the command line with: python run_class1_eval.py --model <key>
+active_model: nllb_clip_base_siglip
+
+# Paths (relative to this file's directory)
+data_dir: Class1_Data
+results_dir: results
+
+# Prompt variants to test. Each key -> its own CSV (same concept/language
+# columns). The script runs EVERY variant listed here and saves results
+# separately under results/<model_key>/<variant_name>/, so you can compare
+# them side by side before deciding which wording to standardize on for
+# all other concepts.
+prompt_variants:
+  templated: class1_prompts_hinglish.csv   # "image of an apple" / "seb ki tasveer" / ...
+  bare: class1_prompts_bare.csv            # "apple" / "seb" / ...
+
+# Concepts to QUERY (one prompt per language, per concept). Pick any subset
+# of the 30 Class I concepts listed in class1_prompts_hinglish.csv.
+concepts:
+  - apple
+
+# Concepts that make up the retrieval POOL (the images the model ranks
+# against each query prompt). Leave empty/null to use every concept folder
+# found under data_dir (all 30 Class I concepts = harder, more meaningful
+# retrieval test). Restrict this list if you want a smaller/faster pool.
+pool_concepts: null
+
+# Which language columns from prompts_csv to test. Must match CSV headers
+# (english / hindi_hinglish / urdu_hinglish / etc. — see the CSV for exact
+# column names). Native-script columns are hindi_native, urdu_native, ...
+languages:
+  - english
+  - hindi_native
+  - hindi_hinglish
+  - urdu_native
+  - urdu_hinglish
+  - bengali_native
+  - bengali_hinglish
+  - tamil_native
+  - tamil_hinglish
+  - telugu_native
+  - telugu_hinglish
+
+top_k: 10
+batch_size: 16
+seed: 42
+
+# ---------------------------------------------------------------------------
+# Model registry. Add a new model here and it becomes selectable via
+# `active_model` or `--model <key>` — no script changes needed.
+# backend: "openai_clip" (uses the `clip` package) or "open_clip"
+# (uses `open_clip_torch`, covers OpenCLIP, XLM-R CLIP and NLLB-CLIP).
+# ---------------------------------------------------------------------------
+models:
+  clip_vitb32:
+    backend: openai_clip
+    name: ViT-B/32
+    pretrained: null
+    display: "CLIP ViT-B/32 (baseline)"
+
+  openclip_vitb32_laion2b:
+    backend: open_clip
+    name: ViT-B-32
+    pretrained: laion2b_s34b_b79k
+    display: "OpenCLIP ViT-B/32 LAION-2B"
+
+  openclip_xlmr:
+    backend: open_clip
+    name: xlm-roberta-base-ViT-B-32
+    pretrained: laion5b_s13b_b90k
+    display: "OpenCLIP XLM-R ViT-B/32 (multilingual)"
+
+  # NLLB-CLIP: verify these exact (name, pretrained) tags against your
+  # installed open_clip_torch version before the first run — open_clip
+  # has changed NLLB-CLIP tags across releases (see README note).
+  nllb_clip_base_siglip:
+    backend: open_clip
+    name: nllb-clip-base-siglip
+    pretrained: v1
+    display: "NLLB-CLIP Base SigLIP"
+
+  nllb_clip_large_siglip:
+    backend: open_clip
+    name: nllb-clip-large-siglip
+    pretrained: v1
+    display: "NLLB-CLIP Large SigLIP"
